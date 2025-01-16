@@ -1,0 +1,99 @@
+.proforma {
+  width: 1200px;
+  margin: 0 auto;
+}
+table,
+th,
+td {
+  border: 1px solid #007ccf;
+  border-collapse: collapse;
+}
+
+.proforma table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table .header {
+  background-color: #8815ae;
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  padding: 20px;
+}
+
+.proforma th {
+  color: white;
+  text-align: center;
+}
+
+.proforma .td-header1 {
+  text-align: center;
+  color: #27035c;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 40px;
+  padding: 20px;
+}
+.proforma .td-header2 {
+  text-align: center;
+  color: #27035c;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.td-header3 h5 {
+  text-align: left;
+}
+.proforma .td-header3 {
+  text-align: center;
+  color: #27035c;
+  text-align: center;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.printbtn {
+  display: flex;
+  justify-content: center;
+}
+
+.proform__logo {
+  width: 300px;
+}
+.proforma .watermark {
+  position: absolute;
+  top: 60%;
+  left: 42%;
+  width: 350px;
+  opacity: 0.1;
+}
+
+.top_row {
+  display: table;
+  width: 100%;
+}
+
+.top_row > div {
+  display: table-cell;
+  width: 50%;
+}
+
+.text-header {
+  color: #8815ae;
+  text-align: right;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  justify-self: end;
+}
+

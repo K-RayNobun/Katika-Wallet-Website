@@ -1,0 +1,205 @@
+.home {
+  background: #FCF3FF;
+}
+.section_wallet{
+  background: #FCF3FF;
+}
+.testimonials_partners{
+  background: #FAF8FF;
+}
+.partners{
+  color: #4c0c61;
+}
+
+//partners css
+.img_partners{
+  width: 150px;
+  height: 50px;
+}
+
+.home__wallet-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home__wallet-text h4 {
+  align-self: flex-start;
+  color: #4c0c61;
+  @media only screen and (max-width: 554px) {
+    align-self: center;
+  }
+}
+.home__wallet-text h4 span {
+  color: #a64fc4;
+}
+.home__wallet-text h6 {
+  color: #4c0c61;
+}
+.home__wallet-text .button {
+  align-self: flex-start;
+  @media only screen and (max-width: 554px) {
+    align-self: center;
+  }
+}
+.home__wallet-img {
+  @media only screen and (max-width: 554px) {
+    padding: 8%;
+  }
+}
+.home__btn-custom {
+  background-image: url("./../../Assets/Img/showcasewallet/playstore.svg");
+  height: 95%;
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  :hover {
+    transform: scale(1, 1);
+  }
+}
+
+// Carousel
+.home__carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  @media only screen and (max-width: 992px) {
+    height: 800px;
+  }
+}
+.home__carousel-text {
+  align-self: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  @media only screen and (max-width: 554px) {
+    text-align: center;
+    font-size: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+.home__carousel-image-content {
+  width: 400px;
+  height: 450px;
+  @media only screen and (max-width: 554px) {
+    width: 200px;
+  }
+}
+.home__carousel-image-bottom {
+  position: absolute;
+  bottom: 0;
+  float: inline-end;
+  width: 100%;
+}
+
+.home__carousel {
+  background: linear-gradient(104.41deg, #bc08f8 -111.55%, #0e0e2c 100%);
+}
+
+.home__header-title > h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  padding-top: 150px;
+  @media only screen and (max-width: 554px) {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+}
+
+
+
+///code de jordan pour le testi;onials
+///     padding-bottom: 50px;
+
+
+.aboutus__third_section{
+    padding-top: 50px;
+    background: white;
+    padding-bottom: 50px;
+}
+
+.aboutus__partners_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width: 752px){
+      flex-direction: column;
+    }
+}
+
+.aboutus__partners_logo{
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    color: #F5D6FF;
+}
+
+.aboutus__partners_logo_active{
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100px;
+    background-color: #d8a5e7;
+    color: #8815AD;
+}
+
+.aboutus__partners_logo:hover{
+  background-color: #d8a5e7;
+  border-radius: 100px;
+}
+
+.aboutus__partners_icon{
+    width: 40px;
+    height: 40px;
+}
+
+.aboutus__partner_text{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    color: #4C0C61;
+  
+}
+.aboutus__partner_text .partner__text_only{
+  text-align: justify;
+  text-align-last: center;
+}
+
+.img__alt{
+    width: 100%;
+    height: 250px;
+    height: 350px;
+    background-color: #ababab;
+    border-radius: 7px;
+}
+
+

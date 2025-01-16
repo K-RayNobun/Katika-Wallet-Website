@@ -1,0 +1,390 @@
+.ludokin_section1{
+   // background: linear-gradient(103.8deg, #6610F2 0.8%, #B666E3 96.79%);
+    background: linear-gradient(104.41deg, #BC08F8 -111.55%, #0E0E2C 100%);
+}
+
+.ludokin_section2{
+    background: #FCF4FF;
+    padding-top: 25px;
+}
+.ludodkin_section3{
+    background: #16011e; 
+    padding-top: 25px;
+}
+.ludodkin_section4{
+    background: #FCF4FF;
+    padding-top: 25px;
+}
+.ludodkin_section5{
+    background: #F0E6F3;
+    padding-top: 25px;
+}
+.showcase_seemore{  
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.see_more_btn{
+  background: #8815AD;
+  color: #ffffff;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  margin-left: 40%;
+  margin-bottom: 30px;
+}
+
+.InfiniteCarouselSlide img {
+  width: 50% !important;
+}
+
+.showludokin__btn_primary{
+  margin-left: auto;
+  margin-right: auto;
+  background: #4C0C61;
+  color: #ffffff;
+}
+.ludokin_section1 .showcasewallet__heading_up_ludokin{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.ludodkin_section4 .katikaiot__bottom{
+  background: #FCF4FF;
+}
+
+.InfiniteCarouselSlide img {
+  width: 50%;
+}
+
+.containerbtn{
+  display: flex;
+}
+.ludodkin_section3 .div{
+  
+}
+.bg,
+ .ludokinplaystore__btn_primary{    
+    padding: 7px 48px;
+    position: absolute;   
+ }
+.bg{
+    animation: pulse 0.8s ease infinite;
+    background: #ffc825;  
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;  
+ }
+
+ .ludodkin_section4 .ludokinplaystore__btn_primary{
+  margin-left: auto;
+  margin-right: auto;
+  background: #4C0C61;
+  color: #ffffff;
+  margin-left: 27%;
+  margin-top: 40px;
+
+ 
+ }
+ 
+ 
+ .ludokinplaystore__btn_primary{    
+   
+    background-image: url('./../../Assets/Img/showcasewallet/playstore.svg'); 
+    height: 95%;       
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-position: center;        
+    background-size: cover;     
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+@keyframes pulse {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1.2);
+      opacity: 0;
+    }
+  }
+  .ludokin__body_h4_section3{
+    text-align: center;
+    //margin-bottom: 10px;
+    height: 72px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    background: linear-gradient(90deg, #683EB6 0%, #AA43CD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-transform: uppercase;
+  }
+  .ludokin__body_h4{
+    text-align: center;
+    margin-bottom: 30px;
+    height: 72px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    background: linear-gradient(90deg, #683EB6 0%, #AA43CD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-transform: uppercase;
+  }
+  .ludokin__heading_left{
+    font-size: 26px;
+    line-height: 35.4px;
+    font-weight: 500;
+   // margin-bottom: 300px;
+    color: #6F42C1;
+    text-align: right;
+  }
+  .ludokin__headtext_left{
+    color: #4C0C61;
+    //   margin-bottom: 50px;
+       text-align: right;
+  }
+  .ludokin__head_img{
+    width: 550px;
+    height: 500px;
+  }
+  .ludokin__heading_right{
+    font-size: 26px;
+    line-height: 35.4px;
+    font-weight: 500;
+  //  margin-bottom: 50px;
+    color: #6F42C1;
+    text-align: left;
+
+  }
+  .ludokin__headtext_right{
+    color: #4C0C61;
+    text-align: left;
+  }
+  .showcasewallet__headtext_up_ludokin{
+    color: #BC08F8;
+  }
+  .showcasewallet__heading_up_ludokin{
+    color: #4C0C61;
+    font-weight: bold;
+  }
+  .showcasewallet__headtext_up_ludokin{
+    color: #4C0C61;
+  }
+  .ludokin__body_h4_features{
+    text-align: center;
+    margin-bottom: 30px;
+    height: 72px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    background: linear-gradient(180deg, #BC08F8 0%, #4E127F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    background-clip: text;
+    text-fill-color: transparent;
+
+  }
+  .ludokin__body_h4_terms{
+    text-align: center;
+    margin-bottom: 10px;
+    height: 72px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    background: linear-gradient(180deg, #BC08F8 0%, #4E127F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-transform: uppercase;
+  }
+   
+  .ludokin__body_h4_section3_screenshots{
+    text-align: center;
+    margin-bottom: 10px;
+    height: 72px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #BC08F8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-transform: uppercase;
+  }
+  .ludokin_partexte{
+       
+    text-align: justify; /* For Edge */
+    text-align-last: center;  
+  }
+  .ludokinterms_btnterms{
+    padding: 7px 48px;
+    background-color: #4C0C61;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    width: 5px;
+    border: 0px;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.9;
+    }    
+    margin-left: 40%;
+    margin-bottom: 15px;    
+  }
+
+  @media screen and (max-width: 770px){
+    .katikawallet__headrow{
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .row-walletsection2_5{
+      flex-direction: column-reverse;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .bg,
+    .ludokinplaystore__btn_primary{
+     // margin-left: 27%;
+
+      
+    }
+    .containerbtn{
+      display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    }
+    .ludokin_partexte{     
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .ludokinterms_btnterms{
+      margin-left: 30%;
+      width: 5px;
+      height: 50px;
+    }
+    .see_more_btn{
+      margin-left: 20%;
+    }
+
+    .ludodkin_section5 .showcasewallet__ludokin{
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .showcasewallet__heading_up_ludokin{
+      text-align: left;
+    }
+
+
+    .katikawallet__tl_head{
+        color: #8815AD;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 26px;
+        line-height: 35.4px;
+        font-weight: 500;
+        letter-spacing: -0.02em;
+    }
+
+    .katikawallet__head_column_2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ludokin__head_img{
+        width: 350px;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ludokin__body_h4{
+        font-size: 40px;
+    }
+    .ludokin_section1 .showcasewallet__heading{
+      text-align: center;
+    }
+    .ludokin_section1 .showcasewallet__ludokin{
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .InfiniteCarouselDots{
+      display: none;
+    }
+}
+@media screen and (max-width: 500px){
+   
+    .ludokin__head_img{
+        width: 250px;
+        height: 250px;        
+        margin-left: auto;
+        margin-right: auto;
+    } 
+   
+    .ludokin__body_h4_features{
+    margin-bottom: 10px;
+    height: 55px;
+    font-weight: 350;
+    font-size: 30px;
+    line-height: 30px;
+    }
+    
+    .ludokin__body_h4_terms{
+        margin-bottom: 10px;
+    height: 55px;
+    font-weight: 350;
+    font-size: 30px;
+    line-height: 30px;
+    }
+    .ludokin__body_h4_section3_screenshots{
+        margin-bottom: 10px;
+        height: 55px;
+        font-weight: 350;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    
+}

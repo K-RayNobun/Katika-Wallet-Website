@@ -1,0 +1,503 @@
+.katikawallet__head {
+  min-height: 90vh;
+  background: linear-gradient(103.8deg, #6610f2 0.8%, #b666e3 96.79%);
+}
+
+.katikawallet__head img,
+.katikawallet__body_main img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+  user-select: none;
+}
+
+.kt__row {
+  margin: 0px;
+}
+
+.katikawallet__headrow {
+  min-height: 90vh;
+}
+
+.katikawallet__head_column_1 {
+  margin-top: 50%;
+  margin-bottom: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media only screen and (max-width: 768px) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.katikawallet__spikes_right {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.katikawallet__spikes_left {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  bottom: 5vh;
+}
+
+.kt__longest {
+  max-width: 60%;
+  opacity: 0.3;
+}
+
+.kt__long {
+  max-width: 40%;
+  opacity: 0.3;
+}
+
+.katikawallet__heading {
+  color: white;
+  text-align: left;
+  align-self: flex-start;
+  @media only screen and (max-width: 554px) {
+    text-align: center;
+    align-self: center;
+  }
+}
+
+.katikawallet__subhead {
+  color: #424242;
+}
+
+.katikawallet__headtext {
+  text-align: left;
+  color: white;
+  @media only screen and (max-width: 992px) {
+    text-align: center;
+  }
+}
+
+.button-secondary {
+  align-self: flex-start;
+  @media only screen and (max-width: 700px) {
+    align-self: center;
+  }
+}
+
+.katikawallet__head_column_2 {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.katikawallet__body_main {
+  padding-top: 50px;
+  background: linear-gradient(180deg, #fcf3ff 0%, #faf8ff 100%);
+}
+
+.katikawallet__body_h4 {
+  margin-bottom: 70px;
+  background: linear-gradient(90deg, #683eb6 0%, #aa43cd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-transform: uppercase;
+}
+.katikawallet__body_h4-developers {
+  margin-bottom: 160px;
+  @media screen and (max-width: 770px) {
+    margin-bottom: 30px;
+    margin-top: -70px;
+  }
+}
+
+.katikawallet__tl_first {
+  display: flex;
+}
+
+.katikawallet__tl_second {
+  display: flex;
+}
+
+.katikawallet__tl_bar {
+  border-right: 4px solid #8815ad;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-right: 40px;
+}
+
+.tl__pointer {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 4px solid #8815ad;
+  background-color: #ffffff;
+  position: absolute;
+  margin-right: -57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tl__dot {
+  width: 10px;
+  height: 10px;
+  background-color: #8815ad;
+  border-radius: 50%;
+}
+
+.katikawallet__tl_col_second {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
+
+.katikawallet__tl_img {
+  width: 100%;
+  height: 400px;
+  margin-top: -120px;
+  @media screen and (max-width: 770px) {
+    margin-top: 0px;
+  }
+}
+
+.katikawallet__tl_head {
+  color: #8815ad;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+}
+
+.katikawallet__tl_body {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: #4c0c61;
+}
+
+.tl__second__pointer {
+  margin-top: 30px;
+}
+
+.lt__second__padding {
+  padding-bottom: 100px;
+  @media screen and (max-width: 770px) {
+    padding-bottom: 50px;
+  }
+}
+
+.lt__noborder {
+  border-right: 4px solid transparent;
+}
+
+.tl__margin_top_120 {
+  margin-top: -120px;
+}
+
+.katikawallet__showcase {
+  padding: 50px 0px;
+}
+
+.katikawallet__showcase_h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+  background: linear-gradient(90deg, #683eb6 0%, #aa43cd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.katikawallet__carousel_item {
+  height: 296px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(93.4deg, #6f42c1 0%, #8815ad 100%);
+  border-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-top-left-radius: 16px;
+  margin: 0px;
+}
+
+.kt__showcase_imgzone {
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+  padding-right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.kt__showcase_txtzone {
+  border-bottom-left-radius: 16px;
+  border-top-left-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kt__showcase_imgzone img {
+  height: 100%;
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.kt__showcase_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 94px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (max-width: 770px) {
+  .katikawallet__headrow {
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .katikawallet__tl_head {
+    font-size: 26px;
+    text-align: left;
+  }
+
+  .katikawallet__head_column_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .katikawallet__head_img {
+    width: 80vw;
+  }
+
+  .katikawallet__head_column_1 {
+    text-align: center;
+  }
+
+  .katikawallet__heading {
+    margin-bottom: 20px;
+  }
+
+  .katikawallet__btn_primary {
+    align-self: center;
+  }
+
+  .katikawallet__tl_first {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .katikawallet__tl_second {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .katikawallet__tl_img {
+    max-height: 150px;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .katikawallet__tl_bar,
+  .katikawallet__tl_col_second {
+    width: 100%;
+    border-right: 0px;
+    border-left: 3px solid #8815ad;
+    align-items: flex-start;
+    padding-left: 25px;
+  }
+
+  .tl__pointer {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 4px solid #8815ad;
+    background-color: #ffffff;
+    position: absolute;
+    margin-left: -41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tl__second__pointer {
+    margin-top: -205px;
+  }
+
+  .tl__margin_top_120 {
+    margin-top: 20px;
+  }
+
+  .lt__noborder {
+    border-color: transparent;
+  }
+
+  .katikawallet__body_h4 {
+    font-size: 40px;
+  }
+
+  .kt_tl_graph {
+    height: auto;
+    max-height: 220px;
+  }
+
+  .kt__showcase_text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .katikawallet__carousel_item {
+    height: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .kt__showcase_imgzone {
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .kt__showcase_imgzone img {
+    width: 100%;
+    height: 300px;
+    border-radius: 0px;
+  }
+
+  .carousel-indicators button {
+    padding: 0px;
+    margin: 0px 3px;
+  }
+
+  .carousel-indicators .active {
+    padding: 0px;
+    margin: 0px 3px;
+  }
+}
+
+.form-group label {
+  color: #4c0c61;
+  font-weight: bold;
+}
+.form-group input {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  min-height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.575rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 10px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.card {
+  background: linear-gradient(180deg, #fcf3ff 0%, #faf8ff 100%);
+  border: none;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #8815ad;
+  outline: 0;
+  box-shadow: none;
+}
+
+.transaction_first {
+  display: none;
+  @media screen and (max-width: 770px) {
+    display: block;
+  }
+}
+.transaction_second {
+  @media screen and (max-width: 770px) {
+    display: none;
+  }
+}
+.transaction_developer_first {
+  display: none;
+  @media screen and (max-width: 770px) {
+    display: block;
+  }
+}
+.transaction_developer_second {
+  @media screen and (max-width: 770px) {
+    display: none;
+  }
+}
+
+.cancel-btn {
+  background-color: #8815ae;
+  color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #8815ae;
+  outline: none;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  &:hover {
+    color: white;
+    background-color: #5d1177;
+  }
+}

@@ -1,0 +1,21 @@
+@import "../../Assets/Styles/variables";
+
+.navbar-toggle {
+  position: sticky;
+  top: 0px;
+}
+
+.header__logo {
+  box-shadow: rgba(188, 2, 250, 0.651) 20px 50px 100px -20px,
+    rgba(255, 255, 255, 0.377) 30px 30px 60px -30px;
+  height: 30px;
+}
+
+.dropdown-item.active {
+  color: aliceblue;
+  background-color: #4c0c61e7 !important;
+}
+.dropdown-item:hover {
+  color: rgb(21, 21, 22);
+  background-color: #3e0e4e11 !important;
+}

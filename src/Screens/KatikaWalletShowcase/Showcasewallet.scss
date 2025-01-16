@@ -1,0 +1,352 @@
+.showcasewallet_section1 {
+  background-color: #fcf3ff;
+  background-image: url("./../../Assets/Img/showcasewallet/imgcaroussel2.svg");
+  height: 95%;
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.showcasewallet_section2 {
+  background-color: #faf8ff;
+  padding-top: 25px;
+}
+
+.showcasewallet_section3 .showcasewallet__heading_up_ludokin{
+  color: #ffffff;
+}
+.showcasewallet_section3 .showcasewallet__btn_primary{
+  width: 220px;
+}
+
+.showcasewallet_section3 {
+  background-image: url("./../../Assets/Img/showcasewallet/rectangle.svg");
+  /* Full height */
+  height: 95%;
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/*.katikawallet__head_column_1 {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}*/
+.showcasewallet__heading_left,
+.showcasewallet__heading_right,
+.showcasewallet__headtext_right,
+.showcasewallet__headtext_left {
+  text-align: left;
+}
+
+.showcasewallet_section1 .carousel-indicators {
+  position: absolute;
+  top: 95%;
+}
+
+.showcasewallet__headtext {
+  color: #ffffff;
+}
+.showcasewallet__heading {
+  width: 470px;
+  height: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+  background-clip: text;
+  //  margin-bottom: 50px;
+  color: #6f42c1;
+  // text-align: left;
+}
+
+.showcasewallet__heading_left {
+  font-size: 26px;
+  line-height: 35.4px;
+  font-weight: 500;
+  // margin-bottom: 300px;
+  color: #6f42c1;
+  //  text-align: right;
+  font-weight: bold;
+}
+.showcasewallet__heading_right {
+  font-size: 26px;
+  line-height: 35.4px;
+  font-weight: 500;
+  //  margin-bottom: 50px;
+  color: #6f42c1;
+  // text-align: left;
+  font-weight: bold;
+}
+.showcasewallet__headtext_right {
+  color: #4c0c61;
+  // text-align: left;
+  //  margin-bottom: 50px;
+}
+.showcasewallet__headtext_left {
+  color: #4c0c61;
+  //   margin-bottom: 50px;
+  //  text-align: right;
+}
+
+.showcasewallet__head_img {
+  width: 550px;
+  height: 500px;
+}
+
+.katikawallet__head_column_2 {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcasewallet__head_column_2 {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.showcasewallet__head_column_1 {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.showcasewalleth4 {
+  margin-bottom: 30px;
+  height: 72px;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #4c0c61;
+  text-transform: uppercase;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.showcaseKatika {
+  color: #bc08f8;
+}
+
+.btn-learmore-wallet {
+  background-color: #ffffff;
+  border: none;
+  color: #4c0c61;
+  padding: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  width: 196px;
+  height: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+}
+.katikawallet__ludokin {
+  margin-right: 2000px;
+}
+
+.showcasewallet__btn_primary {
+  padding: 7px 48px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #4c0c61;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  width: 196px;
+  border: 0px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+.showcasewallet__subhead {
+  color: white;
+}
+
+.walletsection2_1 {
+  margin-bottom: 200px;
+}
+
+.showcasewallet__head_img_ludokin {
+  margin-left: 150px;
+  width: 400px;
+  height: 650px;
+  margin-top: 10px;
+}
+.carousel-control-next-icon {
+  color: #4c0c61;
+}
+.carousel-control-prev-icon {
+  color: #4c0c61;
+}
+
+.carrousel_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.showcasewallet__ludokin {
+  width: 100px;
+  height: 150px;
+  margin-left: 10px;
+  //margin-bottom: 100px;
+}
+.showcasewallet__heading_right_ludokin {
+  color: #ffffff;
+}
+.showcasewallet__headtext_right_ludokin {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 770px) {
+  .carrousel_text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #ffffff;
+  }
+  .showcasewallet_section1 .carousel-indicators {
+    position: absolute;
+    top: 90%;
+  }
+  .showcasewallet_section3 .showcasewallet__ludokin {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .showcasewallet__head_img {
+    width: 350px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    //width: 50%;
+  }
+  .showcasewalleth4 {
+    margin-bottom: 10px;
+    height: 55px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .showcasewallet__headtext_left {
+    text-align: left;
+    text-justify: inter-word;
+  }
+  .showcasewallet__headtext,
+  .showcasewallet__heading_left,
+  .showcasewallet__heading_right,
+  .showcasewallet__headtext_right,
+  .showcasewallet__headtext_left,
+  .showcasewallet__headtext_up_ludokin,
+  .showcasewallet__headtext_right_ludokin {
+    text-align: left;
+  }
+  .carrousel_text {
+    margin-bottom: -5px;
+  }
+
+  .row-walletsection2_1 {
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .row-walletsection2_3 {
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .showcasewallet_section3 .showcasewallet__head_img {
+   /* width: 500px;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;*/
+  }
+}
+// Carousel
+
+.showcasewallet__carousel {
+  background-image: url("./../../Assets/Img/showcasewallet/bgcaroussel.svg")
+    no-repeat;
+}
+.showcasewallet__carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 600px;
+  @media only screen and (max-width: 992px) {
+    height: 800px;
+  }
+}
+.showcasewallet__carousel-text {
+  align-self: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  @media only screen and (max-width: 554px) {
+    text-align: center;
+    font-size: 28px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+.showcasewallet__carousel-image-content {
+  width: 400px;
+  height: 400px;
+  @media only screen and (max-width: 554px) {
+    width: 300px;
+  }
+}
+.showcasewallet__carousel-image-bottom {
+  position: absolute;
+  bottom: 0;
+  float: inline-end;
+  width: 100%;
+}
+
+.showcasewallet__carousel-item > h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  @media only screen and (max-width: 554px) {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+}

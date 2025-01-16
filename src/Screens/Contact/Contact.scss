@@ -1,0 +1,139 @@
+.contact__main {
+  background: linear-gradient(180deg, #fcf3ff 0%, #faf8ff 100%);
+  min-height: 93vh;
+  padding-bottom: 50px;
+}
+
+.contact__intro {
+  padding: 30px 15px 50px 15px;
+  text-align: center;
+  color: #4c0c61;
+}
+
+.contact__h1 {
+  text-align: center;
+  font-weight: 700;
+  color: #8815ad;
+}
+
+.contact__row {
+  margin: 0px;
+  min-height: 500px;
+}
+
+.no_padding {
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.contact__overlay {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: rgba(102, 16, 242, 0.9);
+  background: linear-gradient(
+    90deg,
+    rgba(102, 16, 242, 0.8) 0%,
+    rgba(182, 102, 227, 0.8) 100%
+  );
+  color: #fafafa;
+  padding: 20px 35px;
+}
+
+.contact__overlay p {
+  color: #dbdbdb;
+}
+
+.contact__right_col {
+  background-color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 35px 20px;
+}
+
+.contact__panel {
+  margin-top: 50px;
+}
+
+.contact__arow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.contact__icon {
+  font-size: 20px;
+  color: #4a148c;
+  margin-right: 15px;
+}
+
+.contact__inp {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__label {
+  color: #4a148c;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.contact__input {
+  border: 0px;
+  border-bottom: 2px solid #dbdbdb;
+  width: 100%;
+  outline: none;
+  padding: 5px 0px;
+  &:hover,
+  &:focus {
+    border-bottom: 2px solid #b666e3;
+  }
+}
+
+.contact__textarea {
+  border: 0px;
+  border-bottom: 2px solid #dbdbdb;
+  width: 100%;
+  outline: none;
+  padding: 5px 0px;
+  height: 120px;
+  resize: none;
+  &:hover,
+  &:focus {
+    border-bottom: 2px solid #b666e3;
+  }
+}
+
+.contact__button_div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+
+.contact__sendbtn {
+  border: 0px;
+  background-color: #8815ae;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 10px;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .contact__row {
+    padding: 0px 15px;
+  }
+  .contact__arow {
+    margin-bottom: 0px;
+  }
+  .contact__inp {
+    margin-bottom: 30px;
+  }
+}

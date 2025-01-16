@@ -1,0 +1,56 @@
+@import "../../Assets/Styles/variables";
+
+#button-newsletter {
+  color: $color-primary;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+
+.footer__logo {
+  filter: drop-shadow(4px 1px 2px $color-primary);
+}
+
+//Icons
+
+ul.social > li {
+  display: inline-block;
+  text-align: center;
+}
+
+footer h6 {
+  text-align: left;
+}
+
+ul.social > li > a {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 36px;
+  color: #fff;
+  margin: 0 3px 3px 0;
+  border: 1px solid #fff;
+}
+
+ul.social > li > a:hover {
+  text-decoration: none;
+  background-color: $color-primary;
+}
+
+ul.list-unstyled > li > a {
+  color: #6c757d;
+}
+
+ul.list-unstyled > li > a:hover {
+  text-decoration: none;
+  color: #fff;
+}
